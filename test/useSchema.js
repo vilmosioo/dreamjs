@@ -1,6 +1,7 @@
 var chai = require('chai');
 var expect = require('chai').expect;
-var dream = require('../dream.js');
+var Dream = require('../dream.js');
+var dream = new Dream();
 
 dream.schema('Schema1', {schema1: String});
 dream.schema('Schema2', {schema2: Number});

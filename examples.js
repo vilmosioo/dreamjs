@@ -1,6 +1,7 @@
 // Examples used in the Readme.md
 
-var dream = require('./dream');
+var Dream = require('./dream');
+var dream = new Dream();
 
 var helloworld = dream.output();
 console.log(helloworld);

@@ -453,4 +453,4 @@ function Dream() {
 
 }
 
-module.exports = new Dream();
+module.exports = Dream;
